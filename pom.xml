@@ -4,7 +4,7 @@
    <groupId>taboola_test</groupId>
    <artifactId>taboola_test</artifactId>
    <version>1.2-SNAPSHOT</version>
-   <packaging>rpm</packaging>
+   <!--<packaging>rpm</packaging>-->
    <dependencies>
       <dependency>
          <groupId>org.antlr</groupId>
@@ -89,15 +89,15 @@
                <groupId>org.codehaus.mojo</groupId>
                <artifactId>rpm-maven-plugin</artifactId>
                <version>2.1.5</version>
-               <extensions>true</extensions>
-        <!--        <executions>
+               <!--<extensions>true</extensions>-->
+                <executions>
                   <execution>
                      <id>attach-rpm</id>
                         <goals>
                            <goal>attached-rpm</goal>
                         </goals>
                </execution>
-          </executions> -->
+          </executions>
           <configuration>
              <copyright>Stuff</copyright>
              <group>Development</group>
