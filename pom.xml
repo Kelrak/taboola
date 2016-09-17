@@ -147,4 +147,10 @@
 </plugins>
 </pluginManagement>
 </build>
+<distributionManagement>
+   <repository>
+      <id>artiRepo</id>
+      <url>file:///home/cv/repos/artiRepo</url>
+   </repository>
+</distributionManagement>
 </project>
