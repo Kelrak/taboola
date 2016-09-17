@@ -98,12 +98,12 @@
                <artifactId>rpm-maven-plugin</artifactId>
                <version>2.1.5</version>
                <executions>
-                 <execution>
-                  <id>generate-rpm</id>
-                  <goals>
-                   <goal>rpm</goal>
-                </goals>
-             </execution>
+                  <execution>
+                     <id>attach-rpm</id>
+                        <goals>
+                           <goal>attached-rpm</goal>
+                        </goals>
+               </execution>
           </executions>
           <configuration>
              <copyright>Stuff</copyright>
