@@ -35,17 +35,17 @@
 
 
     </dependencies>
+     <properties>
+        <project.scm.id>github</project.scm.id>
+    </properties>
 
 
     <scm>
         <developerConnection>scm:git:https://github.com/Kelrak/taboola-calc</developerConnection>
       <tag>HEAD</tag>
   </scm>
-
-    <properties>
-        <project.scm.id>github</project.scm.id>
-    </properties>
-    <build>
+    
+<build>
 
         <plugins>
             <plugin>
