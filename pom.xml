@@ -42,6 +42,9 @@
       <tag>HEAD</tag>
   </scm>
 
+    <properties>
+        <project.scm.id>github</project.scm.id>
+    </properties>
     <build>
 
         <plugins>
