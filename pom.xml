@@ -41,7 +41,7 @@
 
 
     <scm>
-        <developerConnection>scm:git:ssh://github.com/Kelrak/taboola-calc</developerConnection>
+        <developerConnection>scm:git:https://github.com/Kelrak/taboola-calc</developerConnection>
       <tag>HEAD</tag>
   </scm>
     
